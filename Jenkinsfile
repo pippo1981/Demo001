@@ -6,11 +6,6 @@ peline {
    }
    stages {
        stage('Build') {
-           agent {
-               docker {
-                   image 'golang'
-               }
-           }
            steps {
                // Create our project directory.
                sh 'cd ${GOPATH}/src'
