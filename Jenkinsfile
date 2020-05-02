@@ -1,4 +1,4 @@
-peline {
+pipeline {
    agent any
    environment {
        registry = "pippo1981/Demo001"
