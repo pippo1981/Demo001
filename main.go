@@ -6,7 +6,8 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "hello world")
+	r.ParseForm()
+	fmt.Fprintf(w, "Hi there, my name is %s!", r.FormValue("name"))
 }
 
 func main() {
