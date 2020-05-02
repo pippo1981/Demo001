@@ -3,7 +3,6 @@ pipeline {
    environment {
        registry = "pippo1981/Demo001"
        GOCACHE = "/tmp"
-       GOPATH = "/home/allen/git"
    }
    stages {
        stage('Build') {
