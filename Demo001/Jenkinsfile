@@ -1,7 +1,7 @@
 peline {
    agent any
    environment {
-       registry = "magalixcorp/k8scicd"
+       registry = "pippo1981/Demo001"
        GOCACHE = "/tmp"
    }
    stages {
